@@ -57,14 +57,19 @@ A. AWS Key Management Service (AWS KMS)
 
 
 > Question 3:
+
 Original:
+
 A company is designing an identity access management solution for an application. The company wants users to be able to use their social media, email, or online shopping accounts to access the application. Which AWS service provides this functionality?
 
 Arabic Translation:
 تصمم الشركة حلاً لإدارة الوصول إلى الهوية لتطبيق ما. ترغب الشركة في أن يتمكن المستخدمون من استخدام حسابات وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التسوق عبر الإنترنت للوصول إلى التطبيق. أي خدمة من AWS توفر هذه الوظيفة؟
 
+
 Correct Answer:
+
 C. Amazon Cognito
+
 
 Explanation:
 توفر خدمة Amazon Cognito إمكانية تسجيل دخول المستخدمين باستخدام حسابات وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التسوق عبر الإنترنت. هذه الخدمة مثالية لتبسيط عملية إدارة الهوية والوصول.
@@ -75,13 +80,16 @@ Explanation:
 
 
 > Question 4:
+
 Original:
+
 Which option is the default pricing model for Amazon EC2 instances?
 
 Arabic Translation:
 ما هو نموذج التسعير الافتراضي لحالات Amazon EC2؟
 
 Correct Answer:
+
 A. On-Demand Instances
 
 Explanation:
