@@ -23,24 +23,38 @@ Correct Answer:
 B. Ensure the environmental safety and security of the AWS infrastructure that hosts WorkSpaces.
 
 
-Explanation:
+  Explanation:
+
 في نموذج المسؤولية المشتركة لـ AWS، تكون AWS مسؤولة عن أمان البنية التحتية المادية، مثل مراكز البيانات وأمان المعدات والشبكات، بينما تقع على عاتق العملاء مسؤولية أمان البيانات والتطبيقات وإعدادات المستخدم. في هذا السياق، AWS مسؤولة عن ضمان سلامة وأمن البيئة التي تستضيف Amazon WorkSpaces.
 
 
 ==============================================
 
-Question 2:
+
+> Question 2:
+
 Original:
+
 A security engineer wants a single-tenant AWS solution to create, control, and manage their own cryptographic keys to meet regulatory compliance requirements for data security. Which AWS service should the engineer use?
 
+
 Arabic Translation:
+
 يريد مهندس الأمان حلاً من AWS للمستأجر الفردي لإنشاء وإدارة مفاتيح التشفير الخاصة به للامتثال لمتطلبات الأمان التنظيمية. أي خدمة من AWS يجب أن يستخدمها المهندس؟
 
+
 Correct Answer:
+
 A. AWS Key Management Service (AWS KMS)
 
-Explanation:
+  Explanation:
 تتيح خدمة AWS KMS للمستخدمين إنشاء وإدارة مفاتيح التشفير الخاصة بهم وإدارتها بطريقة تلبي المتطلبات التنظيمية لحماية البيانات. تساعد هذه الخدمة في ضمان إدارة وتحكم دقيقين في مفاتيح التشفير.
+
+
+==============================================
+
+
+
 
 Question 3:
 Original:
