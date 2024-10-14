@@ -51,12 +51,12 @@ A. AWS Key Management Service (AWS KMS)
 تتيح خدمة AWS KMS للمستخدمين إنشاء وإدارة مفاتيح التشفير الخاصة بهم وإدارتها بطريقة تلبي المتطلبات التنظيمية لحماية البيانات. تساعد هذه الخدمة في ضمان إدارة وتحكم دقيقين في مفاتيح التشفير.
 
 
+
+
 ==============================================
 
 
-
-
-Question 3:
+> Question 3:
 Original:
 A company is designing an identity access management solution for an application. The company wants users to be able to use their social media, email, or online shopping accounts to access the application. Which AWS service provides this functionality?
 
@@ -69,7 +69,12 @@ C. Amazon Cognito
 Explanation:
 توفر خدمة Amazon Cognito إمكانية تسجيل دخول المستخدمين باستخدام حسابات وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التسوق عبر الإنترنت. هذه الخدمة مثالية لتبسيط عملية إدارة الهوية والوصول.
 
-Question 4:
+
+
+==============================================
+
+
+> Question 4:
 Original:
 Which option is the default pricing model for Amazon EC2 instances?
 
@@ -82,7 +87,12 @@ A. On-Demand Instances
 Explanation:
 نموذج التسعير الافتراضي لحالات Amazon EC2 هو "On-Demand Instances"، حيث يدفع المستخدمون فقط مقابل السعة المستخدمة في الحوسبة بالساعة أو الثانية دون الحاجة إلى الالتزام طويل الأمد.
 
-Question 5:
+
+
+==============================================
+
+
+> Question 5:
 Original:
 Which AWS service gives users the ability to combine existing accounts into a centrally managed hierarchy?
 
@@ -95,7 +105,12 @@ A. AWS Organizations
 Explanation:
 تسمح خدمة AWS Organizations للمستخدمين بإدارة حسابات AWS متعددة تحت تسلسل هرمي مركزي، مما يسهل إدارة الأذونات والسياسات والأمان عبر عدة حسابات.
 
-Question 6:
+
+
+==============================================
+
+
+> Question 6:
 Original:
 Who enables encryption of data at rest for Amazon Elastic Block Store (Amazon EBS)?
 
@@ -108,7 +123,12 @@ C. AWS Key Management Service (AWS KMS)
 Explanation:
 توفر AWS KMS إمكانية إدارة المفاتيح التي تستخدم لتشفير البيانات الثابتة في Amazon EBS، ما يوفر أمانًا إضافيًا للبيانات المخزنة.
 
-Question 7:
+
+
+==============================================
+
+
+> Question 7:
 Original:
 Which AWS design principle emphasizes the reduction of interdependencies between components of an application?
 
@@ -121,7 +141,12 @@ B. Loose coupling
 Explanation:
 مبدأ "Loose coupling" يشير إلى تقليل الاعتماد المتبادل بين مكونات التطبيق، ما يتيح تطويرًا وصيانة أسهل وزيادة في المرونة والتوسع.
 
-Question 8:
+
+
+==============================================
+
+
+> Question 8:
 Original:
 A company is developing an application that uses multiple AWS services. The application needs to use temporary, limited-privilege credentials for authentication with other AWS APIs. Which AWS service or feature should the company use to meet these authentication requirements?
 
@@ -134,7 +159,12 @@ C. AWS Security Token Service (AWS STS)
 Explanation:
 يوفر AWS STS بيانات اعتماد مؤقتة ومحدودة الامتياز، مما يسهل المصادقة مع خدمات متعددة في AWS، وهو مثالي للتطبيقات التي تتطلب أذونات مؤقتة.
 
-Question 9:
+
+
+==============================================
+
+
+> Question 9:
 Original:
 Which AWS service or feature offers HTTP attack protection to users running public-facing web applications?
 
@@ -147,7 +177,12 @@ C. AWS WAF
 Explanation:
 AWS WAF (Web Application Firewall) يوفر حماية لتطبيقات الويب العامة من الهجمات التي تستهدف بروتوكولات HTTP وHTTPS، مما يحمي تطبيقات المستخدمين من أنواع متعددة من التهديدات.
 
-Question 10:
+
+
+==============================================
+
+
+> Question 10:
 Original:
 A company wants to troubleshoot and debug a serverless application that is deployed in the AWS Cloud. Which AWS service should the company use to achieve this goal?
 
