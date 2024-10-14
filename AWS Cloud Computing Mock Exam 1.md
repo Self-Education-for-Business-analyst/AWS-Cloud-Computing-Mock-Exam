@@ -5,6 +5,139 @@
 .
 Let's gather all the questions and correct answers from the screenshots you provided:
 
+
+Question 1:
+Original:
+A company uses Amazon WorkSpaces. Which task is the responsibility of AWS, according to the AWS shared responsibility model?
+
+Arabic Translation:
+تستخدم الشركة Amazon WorkSpaces. ما هي المهمة التي تقع على عاتق AWS وفقًا لنموذج المسؤولية المشتركة في AWS؟
+
+Correct Answer:
+B. Ensure the environmental safety and security of the AWS infrastructure that hosts WorkSpaces.
+
+Explanation:
+في نموذج المسؤولية المشتركة لـ AWS، تكون AWS مسؤولة عن أمان البنية التحتية المادية، مثل مراكز البيانات وأمان المعدات والشبكات، بينما تقع على عاتق العملاء مسؤولية أمان البيانات والتطبيقات وإعدادات المستخدم. في هذا السياق، AWS مسؤولة عن ضمان سلامة وأمن البيئة التي تستضيف Amazon WorkSpaces.
+
+Question 2:
+Original:
+A security engineer wants a single-tenant AWS solution to create, control, and manage their own cryptographic keys to meet regulatory compliance requirements for data security. Which AWS service should the engineer use?
+
+Arabic Translation:
+يريد مهندس الأمان حلاً من AWS للمستأجر الفردي لإنشاء وإدارة مفاتيح التشفير الخاصة به للامتثال لمتطلبات الأمان التنظيمية. أي خدمة من AWS يجب أن يستخدمها المهندس؟
+
+Correct Answer:
+A. AWS Key Management Service (AWS KMS)
+
+Explanation:
+تتيح خدمة AWS KMS للمستخدمين إنشاء وإدارة مفاتيح التشفير الخاصة بهم وإدارتها بطريقة تلبي المتطلبات التنظيمية لحماية البيانات. تساعد هذه الخدمة في ضمان إدارة وتحكم دقيقين في مفاتيح التشفير.
+
+Question 3:
+Original:
+A company is designing an identity access management solution for an application. The company wants users to be able to use their social media, email, or online shopping accounts to access the application. Which AWS service provides this functionality?
+
+Arabic Translation:
+تصمم الشركة حلاً لإدارة الوصول إلى الهوية لتطبيق ما. ترغب الشركة في أن يتمكن المستخدمون من استخدام حسابات وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التسوق عبر الإنترنت للوصول إلى التطبيق. أي خدمة من AWS توفر هذه الوظيفة؟
+
+Correct Answer:
+C. Amazon Cognito
+
+Explanation:
+توفر خدمة Amazon Cognito إمكانية تسجيل دخول المستخدمين باستخدام حسابات وسائل التواصل الاجتماعي أو البريد الإلكتروني أو التسوق عبر الإنترنت. هذه الخدمة مثالية لتبسيط عملية إدارة الهوية والوصول.
+
+Question 4:
+Original:
+Which option is the default pricing model for Amazon EC2 instances?
+
+Arabic Translation:
+ما هو نموذج التسعير الافتراضي لحالات Amazon EC2؟
+
+Correct Answer:
+A. On-Demand Instances
+
+Explanation:
+نموذج التسعير الافتراضي لحالات Amazon EC2 هو "On-Demand Instances"، حيث يدفع المستخدمون فقط مقابل السعة المستخدمة في الحوسبة بالساعة أو الثانية دون الحاجة إلى الالتزام طويل الأمد.
+
+Question 5:
+Original:
+Which AWS service gives users the ability to combine existing accounts into a centrally managed hierarchy?
+
+Arabic Translation:
+أي خدمة من AWS تمنح المستخدمين القدرة على دمج الحسابات الحالية في تسلسل هرمي مُدار مركزيًا؟
+
+Correct Answer:
+A. AWS Organizations
+
+Explanation:
+تسمح خدمة AWS Organizations للمستخدمين بإدارة حسابات AWS متعددة تحت تسلسل هرمي مركزي، مما يسهل إدارة الأذونات والسياسات والأمان عبر عدة حسابات.
+
+Question 6:
+Original:
+Who enables encryption of data at rest for Amazon Elastic Block Store (Amazon EBS)?
+
+Arabic Translation:
+من يمكّن تشفير البيانات الثابتة لـ Amazon Elastic Block Store (Amazon EBS)؟
+
+Correct Answer:
+C. AWS Key Management Service (AWS KMS)
+
+Explanation:
+توفر AWS KMS إمكانية إدارة المفاتيح التي تستخدم لتشفير البيانات الثابتة في Amazon EBS، ما يوفر أمانًا إضافيًا للبيانات المخزنة.
+
+Question 7:
+Original:
+Which AWS design principle emphasizes the reduction of interdependencies between components of an application?
+
+Arabic Translation:
+أي مبدأ تصميم من AWS يؤكد على تقليل الاعتماد المتبادل بين مكونات التطبيق؟
+
+Correct Answer:
+B. Loose coupling
+
+Explanation:
+مبدأ "Loose coupling" يشير إلى تقليل الاعتماد المتبادل بين مكونات التطبيق، ما يتيح تطويرًا وصيانة أسهل وزيادة في المرونة والتوسع.
+
+Question 8:
+Original:
+A company is developing an application that uses multiple AWS services. The application needs to use temporary, limited-privilege credentials for authentication with other AWS APIs. Which AWS service or feature should the company use to meet these authentication requirements?
+
+Arabic Translation:
+تقوم شركة بتطوير تطبيق يستخدم خدمات AWS متعددة. يحتاج التطبيق إلى استخدام بيانات اعتماد مؤقتة ومحدودة الامتياز للمصادقة مع واجهات برمجة التطبيقات الأخرى من AWS. أي خدمة أو ميزة من AWS يجب أن تستخدمها الشركة لتلبية متطلبات المصادقة هذه؟
+
+Correct Answer:
+C. AWS Security Token Service (AWS STS)
+
+Explanation:
+يوفر AWS STS بيانات اعتماد مؤقتة ومحدودة الامتياز، مما يسهل المصادقة مع خدمات متعددة في AWS، وهو مثالي للتطبيقات التي تتطلب أذونات مؤقتة.
+
+Question 9:
+Original:
+Which AWS service or feature offers HTTP attack protection to users running public-facing web applications?
+
+Arabic Translation:
+أي خدمة أو ميزة من AWS تقدم حماية من هجمات HTTP للمستخدمين الذين يديرون تطبيقات الويب العامة؟
+
+Correct Answer:
+C. AWS WAF
+
+Explanation:
+AWS WAF (Web Application Firewall) يوفر حماية لتطبيقات الويب العامة من الهجمات التي تستهدف بروتوكولات HTTP وHTTPS، مما يحمي تطبيقات المستخدمين من أنواع متعددة من التهديدات.
+
+Question 10:
+Original:
+A company wants to troubleshoot and debug a serverless application that is deployed in the AWS Cloud. Which AWS service should the company use to achieve this goal?
+
+Arabic Translation:
+تريد شركة استكشاف الأخطاء وإصلاحها وتصحيح تطبيق بدون خادم يتم نشره في AWS Cloud. أي خدمة من AWS يجب أن تستخدمها الشركة لتحقيق هذا الهدف؟
+
+Correct Answer:
+C. AWS X-Ray
+
+Explanation:
+AWS X-Ray يساعد في تتبع طلبات المستخدم وتحليل الأداء في التطبيقات التي لا تستخدم خوادم (Serverless)، ما يسهل عملية تصحيح الأخطاء وتحسين الأداء.
+
+------------------------------------------------------
+
 1. **Question 28:**  
    **Which AWS service provides a scalable data warehouse solution?**  
    **Answer:** D. Amazon Redshift
