@@ -248,16 +248,31 @@ AWS X-Ray يساعد في تتبع طلبات المستخدم وتحليل ال
 
 
 >  Question 11:
+
+
 Original:
+
+
 A company needs to connect multiple VPCs and on-premises networks through a single network connection to the AWS Cloud. Which solution meets this requirement?
 
+
+
 Arabic Translation:
+
 تحتاج الشركة إلى توصيل العديد من شبكات VPC والشبكات المحلية من خلال اتصال شبكة واحد إلى AWS Cloud. أي حل يلبي هذا المتطلب؟
 
 Correct Answer:
+
+
 A. AWS Transit Gateway
 
+
+
+
 Explanation:
+
+
+
 تسمح خدمة AWS Transit Gateway بربط شبكات VPC متعددة والشبكات المحلية عبر اتصال شبكة واحد، مما يبسط إدارة الشبكات والاتصالات بين البيئات المتعددة.
 
 
@@ -266,17 +281,36 @@ Explanation:
 
 
 > Question 12:
+
+
+
 Original:
+
+
+
 A company needs to continuously monitor its environment to analyze network and account activity and identify potential security threats. Which AWS service should the company use to meet these requirements?
 
+
+
 Arabic Translation:
+
+
+
 تحتاج الشركة إلى مراقبة بيئتها بشكل مستمر لتحليل نشاط الشبكة والحسابات وتحديد التهديدات الأمنية المحتملة. أي خدمة من AWS يجب أن تستخدمها الشركة لتلبية هذه المتطلبات؟
 
 Correct Answer:
-D. Amazon GuardDuty
+
+
+
+D. Amazon GuardDuty  واجب الحراسة
+
+
 
 Explanation:
+
+
 Amazon GuardDuty هي خدمة مراقبة مستمرة تهدف إلى تحليل الأنشطة في الشبكة وتحديد التهديدات الأمنية باستخدام التعلم الآلي والذكاء الأمني.
+
 
 
 
@@ -284,14 +318,30 @@ Amazon GuardDuty هي خدمة مراقبة مستمرة تهدف إلى تحل�
 
 
 > Question 13:
+
+
 Original:
+
+
+
 Which AWS network service or feature allows CIDR block notation when providing an IP address range?
 
+
+
+
 Arabic Translation:
+
+
 أي خدمة أو ميزة شبكات من AWS تسمح باستخدام ترميز CIDR عند تقديم نطاق عناوين IP؟
 
-Correct Answer:
+Correct Answer
+
+
+
 A. Security groups
+
+
+
 
 Explanation:
 تتيح Security Groups في AWS إمكانية تحديد نطاقات عناوين IP باستخدام ترميز CIDR لضبط قواعد الوصول والأمان.
@@ -301,15 +351,33 @@ Explanation:
 ==============================================
 
 
+
 > Question 14:
+
+
 Original:
+
+
+
 A company is designing workloads in the AWS Cloud. The company wants the workloads to perform their intended function correctly and consistently throughout their lifecycle. Which pillar of the AWS Well-Architected Framework does this goal represent?
 
+
+
+
 Arabic Translation:
+
+
 تصمم الشركة أحمال العمل في AWS Cloud. تريد الشركة أن تقوم أحمال العمل بأداء وظيفتها المقصودة بشكل صحيح ومتسق طوال دورة حياتها. أي ركيزة من إطار العمل الهندسي الجيد من AWS يمثل هذا الهدف؟
 
+
+
 Correct Answer:
-C. Reliability
+
+
+
+C. Reliability  مصداقية
+
+
 
 Explanation:
 تشير الركيزة "Reliability" إلى ضمان أن الأنظمة تعمل بشكل صحيح ومتسق عبر دورة حياتها مع قدرة على التعافي من الفشل.
@@ -320,19 +388,42 @@ Explanation:
 
 
 > Question 15:
+
+
 Original:
+
+
+
 A cloud practitioner needs to apply security rules to a subnet for Amazon EC2 instances. Which AWS service or feature can the cloud practitioner use to meet this requirement?
 
+
+
+
 Arabic Translation:
+
+
+
 يحتاج ممارس السحابة إلى تطبيق قواعد الأمان على شبكة فرعية لحالات Amazon EC2. أي خدمة أو ميزة من AWS يمكن أن يستخدمها ممارس السحابة لتلبية هذا المتطلب؟
 
+
+
 Correct Answer:
+
+
+
 C. Security groups
 
+
+
 Explanation:
+
+
 تستخدم Security Groups لتطبيق قواعد الأمان في AWS على مستوى الشبكة الفرعية لحالات Amazon EC2، مما يسمح بالتحكم في حركة المرور المسموح بها داخل وخارج الشبكة الفرعية.
 
+
 ========================
+
+
 
 >  **Question 28:**  
    **Which AWS service provides a scalable data warehouse solution?**  
