@@ -3,21 +3,31 @@
 > ## AWS Cloud Computing Mock Exam 1
 
 .
-Let's gather all the questions and correct answers from the screenshots you provided:
+
+**Let's gather all the questions and correct answers from the screenshots you provided:**
 
 
-Question 1:
+
+> Question 1:
+
 Original:
+
 A company uses Amazon WorkSpaces. Which task is the responsibility of AWS, according to the AWS shared responsibility model?
+
 
 Arabic Translation:
 تستخدم الشركة Amazon WorkSpaces. ما هي المهمة التي تقع على عاتق AWS وفقًا لنموذج المسؤولية المشتركة في AWS؟
 
 Correct Answer:
+
 B. Ensure the environmental safety and security of the AWS infrastructure that hosts WorkSpaces.
+
 
 Explanation:
 في نموذج المسؤولية المشتركة لـ AWS، تكون AWS مسؤولة عن أمان البنية التحتية المادية، مثل مراكز البيانات وأمان المعدات والشبكات، بينما تقع على عاتق العملاء مسؤولية أمان البيانات والتطبيقات وإعدادات المستخدم. في هذا السياق، AWS مسؤولة عن ضمان سلامة وأمن البيئة التي تستضيف Amazon WorkSpaces.
+
+
+==============================================
 
 Question 2:
 Original:
